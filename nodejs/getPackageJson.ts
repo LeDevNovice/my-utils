@@ -1,3 +1,5 @@
+// Find the path and retrieve the content of package.json file of a Node.js project.
+// Useful to then provide package.json informations inside some logic of a Node.js project  
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
