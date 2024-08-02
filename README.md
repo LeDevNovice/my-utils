@@ -11,5 +11,6 @@ _Feel free to reuse all the contents of this repository._
 - **KUBERNETES**
   - **Commands**
     - [Copy a file from a Kubernetes pod to a local destination on my machine.](https://github.com/LeDevNovice/my-utils/blob/master/kubernetes/commands.md#copy-a-file-from-a-kubernetes-pod-to-a-local-destination-on-my-machine)
+    - [Delete all the pods of a specific namespace that have an error status.](https://github.com/LeDevNovice/my-utils/blob/master/kubernetes/commands.md#delete-all-the-pods-of-a-specific-namespace-that-have-an-error-status)
 - **NODE.JS**
   - [Find the path and retrieve the content of package.json file of a Node.js project.](https://github.com/LeDevNovice/my-utils/blob/master/nodejs/getPackageJson.ts)

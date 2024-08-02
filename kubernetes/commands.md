@@ -7,3 +7,9 @@ kubectl cp -n <namespace> <pod-name>:<destination/to/file/to/copy/><filename> <d
 
 kubectl cp -n nodejs nodejs-:/app/produits.json ./desktop/produits.json
 ```
+
+#### Delete all the pods of a specific namespace that have an error status.
+_This is a useful command when I have pods on a Kubernetes cluster that have multiplied again and again. Delete them allow me to have a more clear and readable cluster pods list._
+```bash
+kubectl delete pod -n <namespace> --field-selector="status.phase==Failed"
+```
