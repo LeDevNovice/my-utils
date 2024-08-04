@@ -14,3 +14,5 @@ _Feel free to reuse all the contents of this repository._
     - [Delete all the pods of a specific namespace that have an error status.](https://github.com/LeDevNovice/my-utils/blob/master/kubernetes/commands.md#delete-all-the-pods-of-a-specific-namespace-that-have-an-error-status)
 - **NODE.JS**
   - [Find the path and retrieve the content of package.json file of a Node.js project.](https://github.com/LeDevNovice/my-utils/blob/master/nodejs/getPackageJson.ts)
+- **NPM**
+  - [Generate tarball of a NPM project to see package build and test it.](https://github.com/LeDevNovice/my-utils/blob/master/npm/commands.md#generate-tarball-of-a-npm-project-to-see-package-build-and-test-it)
